@@ -1,0 +1,304 @@
+body {
+	font-family: 'Muli', sans-serif;
+}
+
+main h1 {
+	text-transform: uppercase;
+	font-size: 2rem;
+	letter-spacing: 1.5px;
+}
+
+a {
+	color: #000;
+	font-weight: bold !important;
+	letter-spacing: 1.5px;
+}
+
+h4 {
+	font-family: 'Arimo', sans-serif;
+	font-size: .9rem !important;
+	width: 80%;
+}
+
+h5 {
+	font-weight: bold;
+}
+
+ul, ol, dl {
+	margin: 0;
+} 
+
+.pagebanner {
+	padding-bottom: 2rem;
+}
+
+.logo {
+	width: 50px;
+	padding-left: 2rem;
+	padding-top: .7rem;
+	float: left;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+	color: #008CBA;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	color: #000;
+	background-color: #fff;
+	padding-top: .9rem;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	color: #008CBA;
+	background-color: #fff;
+}
+
+.top-bar {
+	background-color: #fff;
+	height: 4rem;
+}
+
+
+.top-bar .name h1 {
+	color: #000;
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1rem;
+	letter-spacing: 2px;
+	padding-left: 1rem !important;
+	text-transform: uppercase;
+	line-height: 4.5rem;
+}
+
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+	padding: 0;
+	letter-spacing: 2px;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+	color: #008CBA;
+	background-color: #fff !important;
+	padding: 0.9375rem;
+}
+
+.top-bar .name h1 a {
+	color: #000;
+}
+
+.product-title {
+	padding-top: 3rem;
+}
+
+.breadcrumbs {
+	width: 100%;
+}
+
+main h1 {
+	font-weight: 900;
+}
+
+main h2 {
+	border: 0 none;
+	padding-top: 1.5rem;
+	text-transform: uppercase;
+}
+
+main h3 {
+	font-weight: 700;
+}
+
+aside h3 {
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	letter-spacing: 1.5px;
+	text-align: left;
+	padding: .5rem;
+	padding-left: 1rem;
+	border: 0 none;
+	border-top: 3px solid;
+	padding-top: 2rem;
+	font-weight: bold;
+	color: #000;
+
+}
+
+button, .button {
+	background-color: #008CBA;
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+	background-color: #0078a0;
+}
+
+.product-description {
+	padding-bottom: 3rem;
+}
+
+.trend {
+	text-align: center;
+	margin: 0 auto				;
+	padding-bottom: 4rem;
+}
+
+.hero .row {
+	max-width: none;
+}
+
+.hero .column {
+	padding: 0;
+}
+
+.about .row {
+	max-width: none;
+}
+
+.about .column {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.abouttext {
+	margin: 0;
+	width: 80%;
+	padding-top: 6rem;
+}
+
+.abouttext h2 {
+	font-family: 'Arimo', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: 900;
+	text-align: left;
+	padding-top: 5rem;
+	padding-bottom: 1rem;
+}
+
+figure {
+  position: relative;
+  width: 100%;
+  margin: 5% auto 0;
+  overflow: hidden;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.7);
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  transition: all .4s ease;
+  box-sizing: border-box;
+}
+
+.textgroup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.textgroup h1 {
+  font-family: 'Arimo', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #fff;
+}
+
+.textgroup p {
+  margin: 0;
+  padding-top: 6px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  letter-spacing: 0px;
+}
+
+figure:hover figcaption {
+  top: 0;
+}
+
+.ss .row {
+	max-width: none;
+}
+
+.panel {
+	background: none;
+	border-style: none;
+	margin: 1rem;
+}
+
+.product-grid {
+	padding-bottom: 4rem;
+}
+
+.right {
+	font-size: .9rem;
+}
+
+.pagination-centered ul.pagination li {
+	padding-bottom: 4rem;
+}
+
+.product-description {
+	padding-top: 2rem;
+}
+
+.product-price {
+	font-weight: bold;
+	font-size: 1.5rem;	
+}
+
+.medium-4 {
+	padding-bottom: 2rem;
+}
+
+.foot .medium-4 {
+	padding-bottom: 0;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+}
+
+.foot h2, a {
+	color: #008CBA;
+}
+
+.foot a {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5rem;
+	padding-left: 1.5rem;
+	float: left;
+	line-height: 8rem;
+}
+
+.foot p {
+	font-size: .7rem;
+	letter-spacing: 1.2px;
+	text-align: justify;
+	padding-top: 1.5rem
+}
+
+.foot .logo {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 1.5rem;
+}
+
+a:hover, a:focus {
+	color: #fff;
+}
